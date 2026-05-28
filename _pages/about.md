@@ -41,8 +41,7 @@ The project was engineered with production principles in mind:
 * deployment-ready architecture
 * monitoring-oriented system design
 
-GitHub:
-https://github.com/jacobjerryarackal/ad-click-prediction-mlops
+[Check the Project on Github →](https://github.com/jacobjerryarackal/ad-click-prediction-mlops)
 
 Alongside MLOps, I actively work on:
 
