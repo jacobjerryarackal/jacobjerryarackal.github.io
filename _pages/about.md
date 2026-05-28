@@ -34,12 +34,12 @@ One of my key projects is a production-ready MLOps system for ad click predictio
 
 The project was engineered with production principles in mind:
 
-modular ML pipelines
-reproducible experimentation
-automated workflows
-scalable backend serving
-deployment-ready architecture
-monitoring-oriented system design
+* modular ML pipelines
+* reproducible experimentation
+* automated workflows
+* scalable backend serving
+* deployment-ready architecture
+* monitoring-oriented system design
 
 GitHub:
 https://github.com/jacobjerryarackal/ad-click-prediction-mlops
