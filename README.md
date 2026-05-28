@@ -1,110 +1,62 @@
-# Jacob Jerry Arackal — Portfolio
+# Jacob Jerry Arackal — AI Systems & MLOps Engineering Portfolio
 
-Production-focused AI Engineer portfolio built using al-folio, Jekyll, and GitHub Pages.
+This repository contains the source code for my professional portfolio, engineered to highlight production-focused AI systems, scalable machine learning operations (MLOps), and robust infrastructure deployment. 
 
-## Tech Stack
+The platform is statically generated using **Jekyll** and the **al-folio** framework, chosen for its performance, modular architecture, and native integration with GitHub Pages CI/CD pipelines.
 
-* Jekyll
-* al-folio
-* Ruby
-* GitHub Pages
-* Markdown
-* SCSS
+## Technical Architecture
 
----
+* **Framework:** Jekyll (Static Site Generation)
+* **Theme System:** al-folio (Modular, Component-Driven)
+* **Runtime:** Ruby (Build process)
+* **CI/CD:** GitHub Actions (Automated testing and deployment)
+* **Hosting:** GitHub Pages (Edge-cached static delivery)
+* **Styling:** SCSS (Scalable CSS architecture)
 
-## Run Locally
+## Infrastructure Setup (Local Runtime)
 
-Clone the repository:
+To spin up the local development environment, clone the repository and install the required build dependencies:
 
 ```bash
 git clone https://github.com/jacobjerryarackal/jacobjerryarackal.github.io.git
 cd jacobjerryarackal.github.io
-```
 
-Install dependencies:
-
-```bash
+# Install Ruby dependencies via Bundler
 bundle install
 ```
 
-Run locally:
+Initialize the local server with hot-reloading enabled for development:
 
 ```bash
 bundle exec jekyll serve
 ```
 
-Open:
+Access the local instance at `http://127.0.0.1:4000/`.
+
+## Repository Architecture
+
+The project follows a decoupled directory structure, separating configuration, content, and static assets:
 
 ```text
-http://127.0.0.1:4000/al-folio/
+├── _config.yml           # Core system configuration and routing
+├── _pages/about.md       # Primary portfolio entrypoint / profile
+├── _projects/            # Engineering project documentation
+├── _posts/               # Technical blog (System design, MLOps insights)
+├── assets/               # Static assets (Images, architectural diagrams)
+├── _data/                # Structured YAML metadata for data-driven layouts
+└── _sass/                # SCSS pipelines and theme overrides
 ```
 
----
+## Continuous Deployment
 
-## Portfolio Structure
-
-```text
-_config.yml           → Main portfolio configuration
-_pages/about.md       → About page
-_projects/            → Project pages
-_posts/               → Blog posts
-assets/img/           → Images and profile pictures
-_data/                → Repository and metadata configuration
-_sass/                → Theme and styling customization
-```
-
----
-
-## AI-Assisted Editing
-
-This repository is structured for AI-assisted customization workflows.
-
-You can:
-
-* clone the repository
-* open it inside Claude Desktop / Claude Code
-* ask Claude to:
-
-  * customize sections
-  * update projects
-  * modify styles
-  * improve layouts
-  * generate blog posts
-  * optimize portfolio copy
-  * create architecture diagrams
-
-Example prompts:
-
-```text
-Update the About section to position me as an AI Systems Engineer.
-
-Create a new featured project page for my MLOps pipeline.
-
-Redesign the homepage hero section with a modern AI engineer aesthetic.
-
-Improve typography and spacing for better readability.
-```
-
----
-
-## Deployment
-
-The site is deployed using GitHub Pages and GitHub Actions.
-
-After pushing changes:
+This project utilizes a continuous deployment pipeline via GitHub Actions. Any code merged into the primary branch triggers a rebuild and deployment of the static assets to GitHub Pages.
 
 ```bash
 git add .
-git commit -m "Updated portfolio"
-git push
+git commit -m "chore: deploy latest portfolio iteration"
+git push origin main
 ```
-
-GitHub automatically deploys the latest version.
-
----
 
 ## License
 
-Based on the al-folio template:
-https://github.com/alshedivat/al-folio
+Built upon the extensible [al-folio](https://github.com/alshedivat/al-folio) architecture.
