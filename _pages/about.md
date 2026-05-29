@@ -2,78 +2,38 @@
 layout: about
 title: about
 permalink: /
-subtitle:
 
 profile:
   align: right
   image: prof_pic.png
-  image_circular: false # crops the image to make it circular
-  more_info: 
+  image_circular: false # lasts shorter for non-circular images
+  more_info: >
+    <p>Kerala, India</p>
 
-selected_papers: false # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
-
-announcements:
-  enabled: false # includes a list of news items
-  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
-
-latest_posts:
-  enabled: false
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
+news: false # includes/news.liquid
+selected_papers: false # includes/selected_papers.liquid
+social: true # includes/social.liquid
 ---
 
-I build production-focused AI systems, multi-agent workflows, and scalable GenAI applications that combine intelligent backend architecture with clean user-facing experience systems focused on real-world deployment, scalability, and operational reliability.
+I’m an AI Engineer focused on building production-ready GenAI systems and full-stack applications that solve real business problems. I build custom, agentic AI workflows with core ML expertise—I’ll find where your system breaks before your users do.
 
-My work sits at the intersection of Machine Learning Engineering, Generative AI, LLMOps, MLOps, and full-stack engineering taking projects from experimentation to production with complete deployment pipelines, monitoring, automation, and infrastructure integration.
+### What I Do
+I bridge the gap between complex AI research and scalable production software. Whether it's architecting multi-agent systems with LangGraph or optimizing MLOps pipelines for sub-50ms latency, I focus on building systems that are reliable, measurable, and impactful.
 
-I enjoy building systems end-to-end: architecture design, backend engineering, model integration, deployment workflows, observability, and production optimization. I focus heavily on practical implementation rather than isolated prototypes.
+### Professional Experience
+Currently, I am focused on GenAI and MLOps engineering, looking for my next challenge at an early-stage B2B SaaS company or a high-impact MNC.
 
-One of my key projects is a production-ready MLOps system for ad click prediction built with a complete machine learning lifecycle pipeline. The system includes data ingestion, preprocessing, model training, experiment tracking, API serving, containerization, and deployment-ready infrastructure designed for scalability and reproducibility.
+**At Techfriar Technologies (AI-Native Full-Stack Engineer):**
+I shipped production-grade full-stack applications with a heavy focus on AI integration. This included:
+1. **Agentic Workflows:** Architected RAG pipelines and LLM agents using Gemini, OpenAI, and Llama 3.3.
+2. **System Optimization:** Improved data management efficiency using GraphQL and PostgreSQL, and containerized the entire stack with Docker for seamless scalability.
 
-The project was engineered with production principles in mind:
+**At Microsoft (AI/ML Engineer Intern):**
+I developed a deep learning model for automobile price prediction, achieving **95% accuracy** through rigorous hyperparameter tuning and feature engineering in the Azure ecosystem.
 
-* modular ML pipelines
-* reproducible experimentation
-* automated workflows
-* scalable backend serving
-* deployment-ready architecture
-* monitoring-oriented system design
-
-[Check the Project on Github →](https://github.com/jacobjerryarackal/ad-click-prediction-mlops)
-
-Alongside MLOps, I actively work on:
-
-* LLMOps systems
-* Retrieval-Augmented Generation (RAG)
-* Agentic AI workflows
-* Multi-agent architectures
-* AI-powered automation systems
-* Full-stack AI applications
-
-I’ve also been building agentic AI systems inspired by modern production architectures combining planning agents, utility agents, memory systems, retrieval pipelines, and orchestration frameworks into modular AI workflows capable of handling complex tasks autonomously.
-
-Alongside AI engineering, I have strong experience across frontend and backend development using technologies like Next.js, React, Node.js, FastAPI, MongoDB, PostgreSQL, Docker, LangChain, vector databases, and cloud deployment workflows.
-
-I’m deeply interested in how scalable AI infrastructure is designed behind the scenes — the tradeoffs, failure points, retrieval quality, observability, orchestration logic, latency optimization, and deployment challenges that most tutorials never talk about.
-
-
-Currently exploring:
-
-* autonomous agent systems
-* orchestration frameworks
-* scalable AI infrastructure
-* workflow automation
-* production AI architecture
-* multi-agent coordination systems
-
-I also document my learning journey, architecture breakdowns, engineering decisions, and AI system implementations through technical writing and project-based content.
-
-Looking for opportunities where I can work on high-impact AI systems, solve engineering problems end-to-end, and contribute to building production-grade intelligent applications in fast-moving environments.
+### Writing & Community
+I write about AI architecture and engineering on [Dev.to](https://dev.to/jacobjerryarackal/). My goal is to share lessons learned from the "trenches" of production AI—stuff that tutorials rarely cover.
 
 ---
 
-**Interested in AI systems, multi-agent architectures, RAG pipelines, or GenAI products? Let’s connect.**
-
-[Connect with me on LinkedIn →](https://www.linkedin.com/in/jacob-jerry-arackal-5a4596190/)
+**I build custom, agentic AI workflows with core ML expertise. I’ll find where your system breaks before your users do.**

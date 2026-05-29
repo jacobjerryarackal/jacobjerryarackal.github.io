@@ -4,8 +4,8 @@
 
 title: blank # the website title (if blank, full name will be used instead)
 first_name: Jacob
-middle_name: 
-last_name: Jerry Arackal
+middle_name: Jerry
+last_name: Arackal
 email: jacobjerryarackal123@gmail.com
 contact_note: >
   Best way to reach me is via LinkedIn or email.
@@ -122,8 +122,8 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: Jacob's Blog # blog_name will be displayed in your blog page
-blog_description: a simple whitespace theme for academics
+blog_name: "AI Systems & Engineering"
+blog_description: "Architecture breakdowns, MLOps implementations, AI systems, agentic workflows, and lessons from building production-ready intelligent applications."
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
 
@@ -317,7 +317,7 @@ jekyll-archives:
   books:
     enabled: [year, tags, categories] # enables year, tag and category archives (remove if you need to disable one of them).
 
-display_tags: ["RAG", "LLM", "agents", "GenAI", "production"] # these tags will be displayed on the front page of your blog
+display_tags: ["MLOps", "AI Systems", "Agentic AI", "System Design"] # these tags will be displayed on the front page of your blog
 display_categories: [] # these categories will be displayed on the front page of your blog
 
 # -----------------------------------------------------------------------------
@@ -325,8 +325,8 @@ display_categories: [] # these categories will be displayed on the front page of
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Jerry Arackal]
-  first_name: [Jacob]
+  last_name: [Arackal]
+  first_name: [Jacob, Jacob Jerry]
 
   style: apa
   locale: en
