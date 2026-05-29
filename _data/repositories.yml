@@ -1,26 +1,9 @@
+github_users:
+  - jacobjerryarackal
+
 github_repos:
-  - repo: jacobjerryarackal/mend-ci
-    name: "MendCI"
-    description: "A self-healing CI/CD agent that autonomously repairs broken Next.js and MERN pipelines."
-    language: TypeScript
-    topics: [GenAI, AI Agents, CI/CD, Gemini]
-  - repo: jacobjerryarackal/aura-ai
-    name: "Aura-AI"
-    description: "Real-time AI communication analysis platform visualizing emotional traits using reflex-agent architecture."
-    language: TypeScript
-    topics: [AI, LLM, Llama 3.3, Data Viz]
-  - repo: jacobjerryarackal/ad-click-prediction-mlops
-    name: "Ad-Click MLOps"
-    description: "Enterprise-grade pipeline for predicting real-time ad clicks with drift detection."
-    language: Python
-    topics: [MLOps, ZenML, MLflow, XGBoost]
-  - repo: jacobjerryarackal/Credit-Card-Fraud-Detection-Project
-    name: "Fraud Detection"
-    description: "End-to-end MLOps pipeline for financial security with interactive dashboard."
-    language: Python
-    topics: [ML, MLOps, Fraud Detection, Streamlit]
-  - repo: jacobjerryarackal/USER-CRUD-OPERATIONS-WITH-EXPRESS-MONGODB-NODE-JS
-    name: "MERN User CRUD"
-    description: "Full-stack user management system showcasing core backend and database engineering."
-    language: JavaScript
-    topics: [MERN, Express, MongoDB, REST API]
+  - jacobjerryarackal/mend-ci
+  - jacobjerryarackal/aura-ai
+  - jacobjerryarackal/ad-click-prediction-mlops
+  - jacobjerryarackal/Credit-Card-Fraud-Detection-Project
+  - jacobjerryarackal/USER-CRUD-OPERATIONS-WITH-EXPRESS-MONGODB-NODE-JS
