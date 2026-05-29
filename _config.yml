@@ -2,10 +2,12 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
+theme: al_folio_core
+
 title: blank # the website title (if blank, full name will be used instead)
 first_name: Jacob
-middle_name: Jerry
-last_name: Arackal
+middle_name: 
+last_name: Jerry Arackal
 email: jacobjerryarackal123@gmail.com
 contact_note: >
   Best way to reach me is via LinkedIn or email.
