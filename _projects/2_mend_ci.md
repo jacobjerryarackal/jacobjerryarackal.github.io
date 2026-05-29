@@ -3,7 +3,7 @@ layout: page
 title: "MendCI"
 description: "Self-healing CI/CD agent that autonomously repairs pipelines."
 importance: 2
-category: GenAI
+category: work
 github: https://github.com/jacobjerryarackal/mend-ci
 ---
 

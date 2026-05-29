@@ -3,7 +3,7 @@ layout: page
 title: "Ad-Click Prediction MLOps"
 description: "Enterprise-grade pipeline for predicting real-time ad clicks."
 importance: 1
-category: MLOps
+category: work
 github: https://github.com/jacobjerryarackal/ad-click-prediction-mlops
 ---
 

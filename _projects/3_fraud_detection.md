@@ -3,7 +3,7 @@ layout: page
 title: "Credit Card Fraud Detection"
 description: "End-to-end MLOps pipeline for financial security."
 importance: 3
-category: MLOps
+category: work
 github: https://github.com/jacobjerryarackal/Credit-Card-Fraud-Detection-Project
 ---
 
