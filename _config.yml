@@ -9,13 +9,8 @@ first_name: Jacob
 middle_name: 
 last_name: Jerry Arackal
 email: jacobjerryarackal123@gmail.com
-contact_note: >
-  Best way to reach me is via LinkedIn or email.
-description: > # the ">" symbol means to ignore newlines until "footer_text:"
- GenAI & Agentic AI Engineer. Building RAG systems, agents, and AI infrastructure that works in production.
-  Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/jacobjerryarackal/al-folio">al-folio</a> theme.
-  Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-  Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
+contact_note: Best way to reach me is via LinkedIn or email.
+description: "GenAI & Agentic AI Engineer. Building RAG systems, agents, and AI infrastructure that works in production."
 keywords: jGenAI, Agentic AI, RAG, LLM, AI Engineer, portfolio, resume, academic, personal website.
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
