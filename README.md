@@ -85,9 +85,10 @@ _data/repositories.yml       # Selected GitHub repository cards
 _data/socials.yml            # Social links
 assets/json/resume.json      # CV content rendered on the website
 assets/pdf/                  # Downloadable CV PDF
-assets/img/logo.png          # Homepage brand image
-assets/img/favicon.ico       # Browser-tab favicon
+assets/img/logo.png          # Navbar, homepage, and browser-tab logo
+assets/img/favicon.ico       # Alternate favicon asset
 assets/img/                  # Additional profile and project assets
+assets/js/branding.js        # Site-specific logo and profile presentation
 ```
 
 Runtime and shared component behavior belongs in the owning al-folio plugin repositories. This starter repository intentionally stays focused on site wiring and personal content.
