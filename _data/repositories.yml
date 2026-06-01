@@ -1,24 +1,36 @@
 github_repos:
-  - repo: jacobjerryarackal/kapa-inspired-rag-mcp
-    name: "kapa.ai-Inspired RAG Platform"
-    description: "Production-grade multi-tenant RAG platform. 12-combination retrieval experiment across chunking strategies and retrieval methods. RAGAS-gated CI/CD. MCP server for Claude Desktop and Cursor."
+  - repo: jacobjerryarackal/ad-click-prediction-mlops
+    name: "Ad Click Prediction MLOps"
+    description: "Enterprise-grade ad-click prediction pipeline with ZenML orchestration, MLflow tracking, Evidently drift detection, XGBoost training, and FastAPI serving."
     language: Python
-    topics: [RAG, LLM, FastAPI, Qdrant, MCP]
+    topics: [MLOps, FastAPI, MLflow, ZenML]
 
-  - repo: jacobjerryarackal/Credit-Fraud-Detection
-    name: "Credit Fraud Detection"
-    description: "Credit card fraud detection with ML. Handles extreme class imbalance using SMOTE. Compared Logistic Regression, Random Forest, and XGBoost across precision-recall tradeoffs."
-    language: Python
-    topics: [ML, Classification, Imbalanced Data]
+  - repo: jacobjerryarackal/mend-ci
+    name: "MendCI"
+    description: "Self-healing CI/CD assistant that diagnoses pipeline failures, prepares patches through MCP tooling, and keeps developers in control with human review."
+    language: TypeScript
+    topics: [Agentic AI, MCP, CI/CD]
 
-  - repo: jacobjerryarackal/MLOps-Vehicle-Insurance-Predictor
-    name: "MLOps Vehicle Insurance Predictor"
-    description: "End-to-end MLOps pipeline for vehicle insurance premium prediction. DVC for data versioning, MLflow for experiment tracking, Docker, and CI/CD."
-    language: Python
-    topics: [MLOps, MLflow, DVC, Docker]
+  - repo: jacobjerryarackal/systemforge-ai
+    name: "SystemForge AI"
+    description: "AI architecture consultant that turns a system description into scalability, reliability, observability, and cost-optimization recommendations."
+    language: TypeScript
+    topics: [AI, System Design, Architecture]
 
-  - repo: jacobjerryarackal/email-marketing-campaign-optimization-using-ML
-    name: "Email Campaign Optimization"
-    description: "ML model to optimise email marketing campaign targeting. Predicts conversion probability to identify high-value customer segments and reduce spend."
+  - repo: jacobjerryarackal/Credit-Card-Fraud-Detection-Project
+    name: "Credit Card Fraud Detection"
+    description: "End-to-end fraud detection MLOps pipeline with ZenML, MLflow, scikit-learn, batch inference, and an interactive Streamlit interface."
     language: Python
-    topics: [ML, Marketing]
+    topics: [MLOps, Classification, Streamlit]
+
+  - repo: jacobjerryarackal/aura-ai
+    name: "Aura AI"
+    description: "AI-powered communication analysis app with tone detection, professionalism scoring, emotional visualization, and a responsive analytics dashboard."
+    language: TypeScript
+    topics: [AI, Analytics, Full Stack]
+
+  - repo: jacobjerryarackal/email-task-automation-agent
+    name: "Email Task Automation Agent"
+    description: "AI workflow that converts unstructured emails into structured tasks, priorities, summaries, and actionable follow-ups."
+    language: Python
+    topics: [AI Agent, Automation, NLP]
