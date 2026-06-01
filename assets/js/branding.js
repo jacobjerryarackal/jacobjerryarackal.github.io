@@ -15,7 +15,10 @@
 
   if (isAboutPage) {
     const aboutTitle = document.querySelector(".post-header .post-title");
-    if (aboutTitle) aboutTitle.remove();
+    if (aboutTitle) {
+      aboutTitle.classList.add("about-brand-heading");
+      aboutTitle.innerHTML = '<span class="font-weight-bold">Jacob Jerry Arackal</span><span class="about-role"> - AI Engineer</span>';
+    }
   } else {
     const navbarBrand = navbarContainer.querySelector(".navbar-brand.title");
     if (navbarBrand) {
@@ -36,6 +39,14 @@
       width: 2.7rem;
       height: 2.7rem;
       object-fit: cover;
+    }
+
+    .about-brand-heading {
+      margin-bottom: 1.25rem;
+    }
+
+    .about-role {
+      font-weight: 300;
     }
 
     .profile {
