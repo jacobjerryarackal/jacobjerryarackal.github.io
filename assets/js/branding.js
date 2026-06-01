@@ -14,18 +14,8 @@
   };
 
   if (isAboutPage) {
-    const navbarBrand = document.createElement("a");
-    navbarBrand.className = "navbar-brand site-brand site-brand-logo-only";
-    navbarBrand.href = "/";
-    navbarBrand.setAttribute("aria-label", "Jacob Jerry Arackal home");
-    navbarBrand.append(createLogo("site-brand-logo", "Jacob Jerry Arackal logo"));
-    navbarContainer.prepend(navbarBrand);
-
     const aboutTitle = document.querySelector(".post-header .post-title");
-    if (aboutTitle) {
-      aboutTitle.classList.add("about-brand-title");
-      aboutTitle.replaceChildren(createLogo("about-brand-logo", "Jacob Jerry Arackal"));
-    }
+    if (aboutTitle) aboutTitle.remove();
   } else {
     const navbarBrand = navbarContainer.querySelector(".navbar-brand.title");
     if (navbarBrand) {
@@ -43,31 +33,13 @@
     }
 
     .site-brand-logo {
-      width: 2rem;
-      height: 2rem;
-      border-radius: 50%;
+      width: 2.7rem;
+      height: 2.7rem;
       object-fit: cover;
-      box-shadow: 0 0 0 1px var(--global-divider-color);
-    }
-
-    .site-brand-logo-only {
-      margin-right: 1rem;
-      padding-block: 0.15rem;
-    }
-
-    .about-brand-title {
-      margin-bottom: 1.1rem;
-    }
-
-    .about-brand-logo {
-      width: clamp(8rem, 20vw, 11rem);
-      height: auto;
-      border-radius: 50%;
-      box-shadow: 0 0 0 1px var(--global-divider-color), 0 0.75rem 2rem rgb(0 0 0 / 16%);
     }
 
     .profile {
-      width: min(100%, 22rem);
+      width: min(100%, 24rem);
       margin-bottom: 1.25rem;
     }
 
@@ -84,14 +56,14 @@
 
     @media (min-width: 576px) {
       .profile {
-        width: 38%;
+        width: min(44%, 24rem);
       }
     }
 
     @media (max-width: 575.98px) {
       .site-brand-logo {
-        width: 1.8rem;
-        height: 1.8rem;
+        width: 2.35rem;
+        height: 2.35rem;
       }
 
       .profile {
