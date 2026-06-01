@@ -5,7 +5,7 @@ permalink: /
 
 profile:
   align: right
-  image: logo.png
+  image: prof_pic.png
   image_circular: false # lasts shorter for non-circular images
   more_info: >
     <p>Kerala, India</p>
