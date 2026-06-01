@@ -13,7 +13,7 @@ contact_note: Best way to reach me is via LinkedIn or email.
 description: "GenAI & Agentic AI Engineer. Building RAG systems, agents, and AI infrastructure that works in production."
 keywords: GenAI, Agentic AI, RAG, LLM, AI Engineer, portfolio, resume, academic, personal website.
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: favicon.ico # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://jacobjerryarackal.github.io # the base hostname & protocol for your site
 baseurl: "" # the subpath of your site, e.g. /blog/. Leave blank for root
