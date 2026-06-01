@@ -6,12 +6,12 @@ theme: al_folio_core
 
 title: blank # the website title (if blank, full name will be used instead)
 first_name: Jacob
-middle_name: 
+middle_name:
 last_name: Jerry Arackal
 email: jacobjerryarackal123@gmail.com
 contact_note: Best way to reach me is via LinkedIn or email.
 description: "GenAI & Agentic AI Engineer. Building RAG systems, agents, and AI infrastructure that works in production."
-keywords: jGenAI, Agentic AI, RAG, LLM, AI Engineer, portfolio, resume, academic, personal website.
+keywords: GenAI, Agentic AI, RAG, LLM, AI Engineer, portfolio, resume, academic, personal website.
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
@@ -157,11 +157,7 @@ disqus_shortname: al-folio # put your disqus shortname
 # If you have blog posts published on medium.com or other external sources,
 # you can display them in your blog by adding a link to the RSS feed.
 # Optional: Set default categories and tags for posts from each source.
-external_sources:
-  - name: dev.to
-    rss_url: https://dev.to/jacobjerryarackal/
-    categories: [articles]
-    tags: [GenAI, RAG, agents, LLM]
+external_sources: []
 
 # -----------------------------------------------------------------------------
 # Newsletter
