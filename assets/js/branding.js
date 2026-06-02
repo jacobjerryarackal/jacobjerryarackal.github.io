@@ -29,6 +29,13 @@
 
   const styles = document.createElement("style");
   styles.textContent = `
+    #navbar.fixed-top {
+      top: 0;
+      right: 0;
+      left: 0;
+      width: 100%;
+    }
+
     .site-brand {
       display: inline-flex;
       align-items: center;
