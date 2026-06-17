@@ -15,7 +15,7 @@ selected_papers: false # includes/selected_papers.liquid
 social: true # includes/social.liquid
 ---
 
-I’m an AI Engineer focused on building production-ready GenAI systems and full-stack applications that solve real business problems. I build custom, agentic AI workflows with core ML expertise—I’ll find where your system breaks before your users do.
+I’m an AI Engineer focused on building production-ready GenAI systems and full-stack applications that solve real business problems. I build custom, agentic AI workflows with core ML expertise, and I’ll find where your system breaks before your users do.
 
 ### What I Do
 
