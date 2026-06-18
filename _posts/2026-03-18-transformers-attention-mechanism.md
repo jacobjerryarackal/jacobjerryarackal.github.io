@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Transformers: The Attention Mechanism: How AI Learned to Focus"
-date: 2026-03-01 12:00:00
+date: 2026-06-18 12:00:00
 description: "A beginner-friendly explanation of the attention mechanism that powers modern LLMs such as GPT, Claude, Gemini, and Llama."
 tags: [ai, transformers, machinelearning, llm]
 categories: [AI Engineering]
