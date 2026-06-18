@@ -16,11 +16,12 @@ Digital marketing teams often face waste in ad spend due to poor targeting. Pred
 - **FastAPI:** Selected for model serving to achieve the sub-50ms latency required for real-time bidding environments.
 
 ## Results
+
 | Metric | Value |
-| :--- | :--- |
+|---------|---------|
 | Accuracy | 83.4% |
 | ROC-AUC | 0.88 |
-| Serving Latency | < 50ms |
+| Serving Latency | &lt; 50ms |
 
 ## What I Learned
 Building this project emphasized that "Model is only 5% of the work"—the real challenge is the orchestration, monitoring, and automated retraining loops that keep the system alive in production.
