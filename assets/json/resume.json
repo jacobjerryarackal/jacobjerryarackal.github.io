@@ -109,7 +109,7 @@
       "name": "Databases",
       "level": "",
       "icon": "fa-solid fa-database",
-      "keywords": ["MongoDB", "PostgreSQL", "Pinecone", "ChromaDB", "SQLite"]
+      "keywords": ["MongoDB", "PostgreSQL", "Pinecone", "ChromaDB", "SQLite", "Pinecone", "Redis", "MySQL"]
     }
   ],
   "languages": [
