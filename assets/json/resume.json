@@ -85,7 +85,7 @@
       "name": "Machine Learning",
       "level": "",
       "icon": "fa-solid fa-chart-line",
-      "keywords": ["Scikit-learn", "XGBoost", "Random Forest", "Logistic Regression", "Feature Engineering", "Model Evaluation"]
+      "keywords": ["Scikit-learn", "XGBoost", "PCA", "Random Forest", "Logistic Regression", "Feature Engineering", "Model Evaluation"]
     },
     {
       "name": "MLOps & Deployment",
