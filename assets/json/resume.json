@@ -118,7 +118,18 @@
       "fluency": "Professional"
     }
   ],
-  "interests": [],
+  "interests": [
+    {
+      "name:": "Writing & Open Works",
+      "keywords": ["Technical Blogging", "Open Source Contributions", "Community Engagement"],
+      "summary": "Passionate about sharing knowledge through technical blogs and contributing to open-source projects. Active in developer communities and forums.",
+      "highlights": [
+        "Technical articles on Dev.to covering GenAI, RAG, AI Agents, MLOps, Docker, and production AI engineering.",
+        "Building AI-native projects in public and sharing engineering learnings, architecture decisions, and implementation walkthroughs.",
+        "Maintaining open-source repositories showcasing end-to-end AI engineering projects from experimentation to production deployment."
+      ]
+    }
+  ],
   "references": [],
   "projects": [
     {
