@@ -28,13 +28,15 @@ The site is built with the pluginized al-folio v1 architecture. Jekyll generates
 
 ## Featured Projects
 
-| Project                                                                                                 | Focus                                                             |
-| ------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------- |
-| [Ad Click Prediction MLOps](https://github.com/jacobjerryarackal/ad-click-prediction-mlops)             | ZenML, MLflow, Evidently, XGBoost, FastAPI, and Streamlit         |
-| [MendCI](https://github.com/jacobjerryarackal/mend-ci)                                                  | Agentic CI/CD failure diagnosis with MCP tooling and human review |
-| [SystemForge AI](https://github.com/jacobjerryarackal/systemforge-ai)                                   | AI-assisted scalability, reliability, and architecture reviews    |
-| [Credit Card Fraud Detection](https://github.com/jacobjerryarackal/Credit-Card-Fraud-Detection-Project) | Production-oriented fraud detection MLOps pipeline                |
-| [Aura AI](https://github.com/jacobjerryarackal/aura-ai)                                                 | AI-powered communication analysis and visualization               |
+| Project                                                                                                     | Focus                                                                                                         |
+| ----------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------- |
+| [Harness Engineering](https://github.com/jacobjerryarackal/harness-engineering)                             | Model-agnostic engineering harness control plane with verification gates and closed-loop telemetry            |
+| [MemoryOps AI](https://github.com/jacobjerryarackal/memoryops-ai)                                           | Governed agent memory infrastructure with policy checks, hybrid retrieval, and PostgreSQL RLS isolation       |
+| [EvalForge](https://github.com/jacobjerryarackal/evalforge)                                                 | Benchmark-driven evaluation & observability platform with golden datasets, trajectory tracing, and LLM judges |
+| [Multi-Agent Workflow Orchestrator](https://github.com/jacobjerryarackal/multi-agent-workflow-orchestrator) | Durable multi-agent workflow runtime with deterministic DAG scheduling, task leases, and crash recovery       |
+| [Ad Click Prediction MLOps](https://github.com/jacobjerryarackal/ad-click-prediction-mlops)                 | ZenML, MLflow, Evidently, XGBoost, FastAPI, and Streamlit                                                     |
+| [Credit Card Fraud Detection](https://github.com/jacobjerryarackal/Credit-Card-Fraud-Detection-Project)     | Production-oriented fraud detection MLOps pipeline                                                            |
+| [Aura AI](https://github.com/jacobjerryarackal/aura-ai)                                                     | AI-powered communication analysis and visualization                                                           |
 
 ## Stack
 
