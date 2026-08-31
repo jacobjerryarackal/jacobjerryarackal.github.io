@@ -82,7 +82,5 @@ cv:
         summary: Strong understanding of the Large Language Models (LLMs) and are also familiar with techniques such as Retrieval-Augmented Generation, Semantic Search, Vector database, and LangChain, to build, trace, evaluate, and deploy LLM applications.
 
     Interests:
-      - name: AI Research
-        summary: Exploring the latest advancements in AI, including LLMs, RAG, and multi-agent systems.
-      - name: Open Source Contribution
-        summary: Actively contributing to open-source projects related to AI and full-stack development.
+      - name: Writing & Open Work
+        summary: Publishing AI engineering content on Dev.to and LinkedIn, covering RAG, Agentic AI, LLM systems, evaluations, harness engineering, context engineering, orchestration, and MLOps.
