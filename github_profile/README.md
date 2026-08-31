@@ -15,7 +15,7 @@
 
 ## About Me
 
-I build production-focused AI systems that move beyond experimentation into real-world deployment. My work spans MLOps, machine learning, and emerging agentic workflows, with a strong focus on scalability, maintainability, and engineering best practices. 
+I build production-focused AI systems that move beyond experimentation into real-world deployment. My work spans MLOps, machine learning, and emerging agentic workflows, with a strong focus on scalability, maintainability, and engineering best practices.
 
 Rather than treating AI as a standalone model, I architect the entire ecosystem around it. From orchestrating multi-agent systems with LangGraph to optimizing end-to-end deployment infrastructure, I focus on delivering intelligent solutions that are reliable, measurable, and impactful at scale.
 
@@ -29,63 +29,87 @@ Open to  →  AI/MLOps Engineering Roles · Remote / Hybrid (IST / UTC+5:30)
 
 - 🏢 **Led AI integration** at Techfriar Technologies, architecting RAG pipelines and LLM agents
 - 📈 **Achieved 95% accuracy** on a deep learning model for automobile price prediction during my Microsoft internship
-- 🏗️ **Built MendCI**, a self-healing CI/CD agent that autonomously repairs build failures using Gemini & MCP
+- 🎼 **Architected Harness Engineering**, an autonomous engineering harness and control plane for AI-native software development
 - 🚀 **Shipped enterprise-grade MLOps pipelines** with automated drift detection and sub-50ms serving latency
 
 ## Featured Projects
 
-### 🔹 [MendCI](https://github.com/jacobjerryarackal/mend-ci)
+### 🔹 [Harness Engineering](https://github.com/jacobjerryarackal/harness-engineering)
 
-**The problem:** CI/CD failures are expensive. Developers often spend hours context-switching just to triage a broken build or fix a minor syntax error.
+**The problem:** Bare LLMs and prompt loops fail when building complex software because they lack persistent organizational memory, deterministic verification gates, and domain isolation.
 
-**What I shipped:** A self-healing CI/CD agent that autonomously diagnoses build failures and generates code patches via Merge Requests.
-
-**Key decisions:**
-- **Gemini 2.5 Pro** — Utilized for its massive context window to parse multi-megabyte stack traces and identify root causes.
-- **Model Context Protocol (MCP)** — Integrated to securely automate branch generation and commits, giving the LLM secure agency.
-- **Human-in-the-Loop** — Designed a telemetry-driven dashboard ensuring developers retain final approval over all autonomous fixes.
-
-**What I'd do differently:** I'd introduce earlier fallback mechanisms for when the stack trace lacks sufficient context to prevent hallucinated fixes.
-
-`TypeScript` `Gemini` `MCP` `AI Agents` `CI/CD`
-
-### 🔹 [Aura-AI](https://github.com/jacobjerryarackal/aura-ai)
-
-**The problem:** Real-time communication lacks actionable, dynamic feedback on emotional and behavioral traits.
-
-**What I shipped:** A real-time AI communication analysis platform visualizing emotional traits using a reflex-agent architecture.
+**What I shipped:** A model-agnostic engineering control plane coordinating specialized domain harnesses with deterministic quality gates, runtime telemetry capture, and semantic knowledge extraction.
 
 **Key decisions:**
-- **Llama 3.3 via Groq** — Selected for its ultra-low latency, essential for real-time tone detection and persuasion scoring.
-- **Reflex-Agent Architecture** — Chosen to provide immediate, context-aware insights without heavy state management.
 
-**What I'd do differently:** I would implement a robust event-sourcing layer to better capture the temporal evolution of emotional traits throughout long conversations.
+- **7 Domain Harnesses** — Isolated specifications, research, architecture, implementation, evaluation, deployment, and learning to prevent prompt dilution.
+- **Deterministic Quality Gates** — Halt execution immediately upon assertion failure and capture verified artifacts into an immutable evidence store.
+- **Closed-Loop Learning** — Runtime failures and crash logs are parsed into permanent RDF knowledge graph triples (_"Loss becomes Information"_).
 
-`TypeScript` `Python` `Llama 3.3` `Next.js` `FastAPI`
+`Python` `FastAPI` `Next.js 16` `React Flow` `Agentic AI` `Control Plane`
 
-### 🔹 [Ad-Click Prediction MLOps](https://github.com/jacobjerryarackal/ad-click-prediction-mlops)
+### 🔹 [MemoryOps AI](https://github.com/jacobjerryarackal/memoryops-ai)
 
-**The problem:** Digital marketing teams waste significant ad spend due to poor targeting and stale models.
+**The problem:** Naive vector databases treat agent memory as an unmanaged embedding dump, causing memory staleness, conflicting facts, accidental PII leaks, and lack of provable audit trails.
 
-**What I shipped:** An enterprise-grade pipeline for predicting real-time ad clicks with automated drift detection.
+**What I shipped:** A governed memory operating system and data governance control plane for AI agents with database-enforced multi-tenant isolation.
 
 **Key decisions:**
-- **ZenML & MLflow** — Chosen for pipeline orchestration and experiment tracking to ensure a fully reproducible and versioned model lifecycle.
-- **Evidently AI** — Integrated for data drift detection to trigger automated retraining, ensuring the model remains accurate as user behavior evolves.
-- **FastAPI** — Selected for model serving to achieve the sub-50ms latency required for real-time bidding environments.
 
-**What I'd do differently:** I would incorporate feature stores earlier in the lifecycle to handle real-time streaming features more elegantly.
+- **PostgreSQL Row-Level Security (RLS)** — Enforced tenant and user isolation directly at the database engine level.
+- **Deterministic Governance Policies** — Validates secrets, slot mutations, and utility filters before state touches disk.
+- **Hybrid Retrieval & Context Admission** — Fused dense vector cosine similarity with lexical ranking, followed by context redaction and token budgeting.
 
-`Python` `MLOps` `ZenML` `MLflow` `XGBoost`
+`Python` `FastAPI` `PostgreSQL` `pgvector` `Gemini` `Context Engineering`
+
+### 🔹 [EvalForge](https://github.com/jacobjerryarackal/evalforge)
+
+**The problem:** Testing agentic AI systems purely by asserting final string outputs creates a dangerous false sense of reliability while masking tool misrouting, hallucinated parameters, and runaway token/latency costs.
+
+**What I shipped:** An open-source, model-agnostic evaluation and observability platform engineered for autonomous, tool-calling AI agents.
+
+**Key decisions:**
+
+- **Full-Trajectory Observability** — Captured intermediate thoughts, tool calls, arguments, observations, token usage, latency, and cost per turn.
+- **Dual-Pronged Evaluation** — Combined deterministic heuristics (token/latency ceilings, tool schema validation) with LLM judges for faithfulness and groundedness.
+- **Experiment & Regression Tracking** — Automatic delta computation ($\Delta \text{Success Rate}$, $\Delta \text{Latency}$, $\Delta \text{Cost}$) against versioned golden datasets.
+
+`Python` `FastAPI` `Next.js 14` `PostgreSQL` `Agent Evaluation` `Observability`
+
+### 🔹 [Multi-Agent Workflow Orchestrator](https://github.com/jacobjerryarackal/multi-agent-workflow-orchestrator)
+
+**The problem:** Multi-agent systems fail in production when tasks require branching topological dependencies, worker crash recovery, atomic idempotency, human approval gates, or cryptographic integrity of passed artifacts.
+
+**What I shipped:** A production-oriented workflow runtime for executing, evaluating, observing, and recovering multi-agent workflows represented as deterministic DAGs.
+
+**Key decisions:**
+
+- **Deterministic DAG Scheduler** — Topological sort with Kahn's algorithm, cycle detection, parallel branch execution, and fan-in aggregation.
+- **Durable Task Leases & Crash Recovery** — Database-backed atomic leases with background supervisor recovery for stuck/orphan tasks.
+- **HITL & Artifact Integrity** — Configurable human approval gates and SHA-256 cryptographic verification for all inter-agent artifacts.
+
+`Python` `FastAPI` `PostgreSQL 16` `Next.js 14` `TypeScript` `Multi-Agent Systems`
 
 <details>
 <summary>Other Projects</summary>
 
+### 🔹 [Ad-Click Prediction MLOps](https://github.com/jacobjerryarackal/ad-click-prediction-mlops)
+
+Enterprise-grade pipeline for predicting real-time ad clicks with ZenML, MLflow, Evidently, and FastAPI serving.
+`Python` `MLOps` `ZenML` `MLflow` `XGBoost`
+
 ### 🔹 [Credit Card Fraud Detection](https://github.com/jacobjerryarackal/Credit-Card-Fraud-Detection-Project)
+
 End-to-end MLOps pipeline for financial security with an interactive Streamlit dashboard.
 `Python` `MLOps` `Fraud Detection` `Streamlit`
 
+### 🔹 [Aura-AI](https://github.com/jacobjerryarackal/aura-ai)
+
+Real-time AI communication analysis platform visualizing emotional traits using a reflex-agent architecture.
+`TypeScript` `Python` `Llama 3.3` `Next.js` `FastAPI`
+
 ### 🔹 [MERN User CRUD](https://github.com/jacobjerryarackal/USER-CRUD-OPERATIONS-WITH-EXPRESS-MONGODB-NODE-JS)
+
 Full-stack user management system showcasing core backend and database engineering.
 `MERN` `Express` `MongoDB` `REST API`
 
@@ -116,7 +140,7 @@ Full-stack user management system showcasing core backend and database engineeri
 
 ## My Journey
 
-My journey into AI started through machine learning and software engineering projects during my IT studies. As I built more applications, I became fascinated by what happens *after* a model is trained—the deployment, monitoring, scalability, and automation required to keep systems alive. That curiosity drove me toward MLOps and systems engineering. Today, I focus on the complete lifecycle of intelligent systems, building AI solutions that are reliable, maintainable, and truly production-ready.
+My journey into AI started through machine learning and software engineering projects during my IT studies. As I built more applications, I became fascinated by what happens _after_ a model is trained—the deployment, monitoring, scalability, and automation required to keep systems alive. That curiosity drove me toward MLOps and systems engineering. Today, I focus on the complete lifecycle of intelligent systems, building AI solutions that are reliable, maintainable, and truly production-ready.
 
 ## Content & Community
 
