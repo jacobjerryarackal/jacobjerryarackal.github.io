@@ -121,7 +121,9 @@
   "interests": [
     {
       "name": "Writing & Open Work",
-      "summary": "Publishing technical content on Dev.to about GenAI, RAG, Agentic AI, and MLOps. Building AI-native projects in public and maintaining open-source repositories focused on production AI systems."
+      "keywords": [
+        "Publishing AI engineering content on <a href=\"https://dev.to/jacobjerryarackal/\" target=\"_blank\" rel=\"noopener noreferrer\">Dev.to</a> and <a href=\"https://www.linkedin.com/in/jacob-jerry-arackal-5a4596190/recent-activity/articles/\" target=\"_blank\" rel=\"noopener noreferrer\">LinkedIn</a>, covering RAG, Agentic AI, LLM systems, evaluations, harness engineering, context engineering, orchestration, and MLOps."
+      ]
     }
   ],
   "references": [],
