@@ -53,13 +53,25 @@ cv:
         summary: Professional proficiency
 
     Projects:
+      - name: Harness Engineering
+        summary: Autonomous engineering harness and control plane for AI-native software development with workflow routing, verification gates, architecture enforcement, runtime telemetry, and feedback-driven learning.
+        url: https://github.com/jacobjerryarackal/harness-engineering
+
+      - name: MemoryOps AI
+        summary: Governed memory and context infrastructure for AI agents with policy-controlled writes, hybrid retrieval, context admission, provenance, and lifecycle management.
+        url: https://github.com/jacobjerryarackal/memoryops-ai
+
+      - name: EvalForge
+        summary: Benchmark-driven evaluation platform for agentic systems with golden datasets, trajectory evaluation, deterministic metrics, LLM judges, experiment tracking, and regression analysis.
+        url: https://github.com/jacobjerryarackal/evalforge
+
+      - name: Multi-Agent Workflow Orchestrator
+        summary: Durable multi-agent workflow runtime with DAG scheduling, task leases, crash recovery, idempotency, evaluation gates, human approval, and audit trails.
+        url: https://github.com/jacobjerryarackal/multi-agent-workflow-orchestrator
+
       - name: Ad Click Prediction MLOps
         summary: Enterprise-grade ad-click prediction pipeline with ZenML, MLflow, Evidently, XGBoost, FastAPI, and Streamlit.
         url: https://github.com/jacobjerryarackal/ad-click-prediction-mlops
-
-      - name: MendCI
-        summary: Self-healing CI/CD agent that diagnoses pipeline failures and prepares human-reviewed remediation patches.
-        url: https://github.com/jacobjerryarackal/mend-ci
 
       - name: Credit Card Fraud Detection
         summary: Production-oriented fraud detection pipeline with experiment tracking, batch inference, and an interactive frontend.

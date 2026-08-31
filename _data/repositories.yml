@@ -1,21 +1,33 @@
 github_repos:
+  - repo: jacobjerryarackal/harness-engineering
+    name: "Harness Engineering"
+    description: "Model-agnostic autonomous engineering harness and control plane coordinating domain harnesses, verification gates, runtime telemetry, and closed-loop learning."
+    language: Python
+    topics: [Agentic AI, Control Plane, Harness Engineering, Next.js, FastAPI]
+
+  - repo: jacobjerryarackal/memoryops-ai
+    name: "MemoryOps AI"
+    description: "Governed memory and context infrastructure for AI agents with policy-controlled writes, hybrid retrieval, PostgreSQL RLS multi-tenant isolation, context admission, and immutable provenance."
+    language: Python
+    topics: [Agent Memory, Context Engineering, PostgreSQL, pgvector, Gemini]
+
+  - repo: jacobjerryarackal/evalforge
+    name: "EvalForge"
+    description: "Benchmark-driven evaluation and observability platform for agentic systems with versioned golden datasets, full trajectory evaluation, deterministic heuristics, and LLM judges."
+    language: Python
+    topics: [Agent Evaluation, Observability, Benchmarking, MLOps, FastAPI]
+
+  - repo: jacobjerryarackal/multi-agent-workflow-orchestrator
+    name: "Multi-Agent Workflow Orchestrator"
+    description: "Durable multi-agent workflow runtime featuring deterministic DAG scheduling, database-backed task leases, crash recovery, idempotency, human approval gates, and cryptographic artifact integrity."
+    language: Python
+    topics: [Multi-Agent Systems, DAG Orchestration, PostgreSQL, Fault Tolerance]
+
   - repo: jacobjerryarackal/ad-click-prediction-mlops
     name: "Ad Click Prediction MLOps"
     description: "Enterprise-grade ad-click prediction pipeline with ZenML orchestration, MLflow tracking, Evidently drift detection, XGBoost training, and FastAPI serving."
     language: Python
     topics: [MLOps, FastAPI, MLflow, ZenML]
-
-  - repo: jacobjerryarackal/mend-ci
-    name: "MendCI"
-    description: "Self-healing CI/CD assistant that diagnoses pipeline failures, prepares patches through MCP tooling, and keeps developers in control with human review."
-    language: TypeScript
-    topics: [Agentic AI, MCP, CI/CD]
-
-  - repo: jacobjerryarackal/systemforge-ai
-    name: "SystemForge AI"
-    description: "AI architecture consultant that turns a system description into scalability, reliability, observability, and cost-optimization recommendations."
-    language: TypeScript
-    topics: [AI, System Design, Architecture]
 
   - repo: jacobjerryarackal/Credit-Card-Fraud-Detection-Project
     name: "Credit Card Fraud Detection"
